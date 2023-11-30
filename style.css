@@ -2,6 +2,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
 }
 
 #hero {
@@ -93,7 +95,7 @@ body {
    padding-bottom: 50px;
    
  }
- figcaption {
+  #section-two figcaption {
    width: 170px;
    text-align: center;
    color: #828282;
@@ -103,4 +105,35 @@ body {
    font-size: 36px;
    color: #1F2937;
    font-weight: bolder;
+ }
+
+ #quote {
+   background-color: #E5E7EB;
+   display: flex;
+   padding: 100px 450px;
+   font-size: 36px;
+   font-style: italic;
+   color: #1F2937;
+   flex-direction: column;
+   align-items: flex-end;
+   
+   
+ }
+
+ #quote #cite {
+   font-size: 18px;
+   font-style: normal;
+   font-weight: bold;
+ }
+
+ 
+ #last-section {
+   background-color: #3882F6;
+   margin: 100px;
+   border-radius: 8px;
+ }
+
+ footer {
+   background-color: #1F2937;
+   
  }
